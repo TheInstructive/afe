@@ -2,6 +2,9 @@ import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faDiscord, faInstagram } from "@fortawesome/free-brands-svg-icons"
 import StarfieldAnimation from 'react-starfield-animation'
+import carix from './images/carix.png'
+import mon from './images/mon.png'
+import devalien from './images/devalien.png'
 
 function App() {
   return (
@@ -13,7 +16,6 @@ function App() {
           <li><a href='/'>HOME</a></li>
           <li><a href='#roadmap'>ROADMAP</a></li>
           <li><a href='#story'>STORY</a></li>
-          <li><a href='#faq'>FAQ</a></li>
           <li><a href='#team'>TEAM</a></li>
         </div>
 
@@ -33,24 +35,19 @@ function App() {
           height: '800px'
         }}
       />
-        <div className='slider-title'><a>ALIENS FROM EARTH</a></div>
 
-        
+        <div className='slider-title'>
+        <a>ALIENS FROM EARTH</a>
+        <div class="spinner scroll-down"> <a class="animate"></a> </div>
+        </div>
+
       </div>
 
 
       <div className='title' id='roadmap'>ROADMAP</div>
       <div className='border-container'><div className='border'></div></div>
       <div className='roadmap-container'>
-      <StarfieldAnimation
-        style={{
-          position: 'absolute',
-          width: '100%',
-          height: '500px'
-        }}
-      />
         <div className='roadmap'>
-
 
           {/*
           <div className='left-step'>
@@ -82,6 +79,7 @@ function App() {
               </div> 
       </div>
 
+
       <div className='story' id='story'>
         <div className='title'>STORY</div>
         <div className='border-container'><div className='border'></div></div>
@@ -107,24 +105,21 @@ function App() {
 
         <div className='team-members'>
         <div className='member'>
-          <div className='member-name'>TEST</div>
-          <div className='avatar'></div>
-          <div className='member-name'>TEST</div>
-          <div className='socials'><a><FontAwesomeIcon icon={faTwitter} /> TEST</a></div>
+          <div style={{fontWeight:'800'}} className='member-name'>DEVALIEN</div>
+          <div className='avatar'><img width={'100%'} src={devalien}></img></div>
+          <div style={{fontSize:'12pt'}}  className='member-name'>BACKEND DEVELOPER</div>
         </div>
 
         <div className='member'>
-        <div className='member-name'>TEST</div>
-          <div className='avatar'></div>
-          <div className='member-name'>TEST</div>
-          <div className='socials'><a><FontAwesomeIcon icon={faTwitter} /> TEST</a></div>
+        <div style={{fontWeight:'800'}} className='member-name'>MON</div>
+          <div className='avatar'><img width={'100%'} src={mon}></img></div>
+          <div style={{fontSize:'12pt'}}  className='member-name'>ARTIST</div>
         </div>
 
         <div className='member'>
-        <div className='member-name'>TEST</div>
-          <div className='avatar'></div>
-          <div className='member-name'>TEST</div>
-          <div className='socials'><a><FontAwesomeIcon icon={faTwitter} /> TEST</a></div>
+        <div style={{fontWeight:'800'}} className='member-name'>CARIX</div>
+          <div className='avatar'><img width={'100%'} src={carix}></img></div>
+          <div style={{fontSize:'12pt'}} className='member-name'>FRONTEND DEVELOPER</div>
         </div>
 
         </div>
