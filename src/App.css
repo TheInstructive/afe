@@ -505,4 +505,12 @@ animation: pulse 1.5s 0.5s infinite normal ease forwards;
     font-family: "Rajdhani";
   
   }
+
+  .member{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

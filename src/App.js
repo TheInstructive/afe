@@ -79,7 +79,7 @@ function App() {
               </div> 
       </div>
 
-
+{/* 
       <div className='story' id='story'>
         <div className='title'>STORY</div>
         <div className='border-container'><div className='border'></div></div>
@@ -98,6 +98,7 @@ function App() {
         </div>
 
       </div>
+ */}
 
       <div className='team' id='team'>
       <div className='title'>TEAM</div>
