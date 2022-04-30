@@ -15,7 +15,6 @@ function App() {
         <div className='menu'>
           <li><a href='/'>HOME</a></li>
           <li><a href='#roadmap'>ROADMAP</a></li>
-          <li><a href='#story'>STORY</a></li>
           <li><a href='#team'>TEAM</a></li>
         </div>
 
