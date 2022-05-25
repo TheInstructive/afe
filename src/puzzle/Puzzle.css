@@ -1,0 +1,189 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/bg.svg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+
+.Puzzle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.puzzle-container{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+    color: white;
+    font-family: "Rajdhani";
+    font-size: 18pt;
+}
+
+.input-container{
+    padding: 10px;
+    border: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.input-container input{
+    padding: 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 10px;
+    min-width: 70vh;
+    font-family: "Rajdhani";
+    font-size: 15pt;
+    font-weight: 600;
+}
+
+.input-container input:focus{
+    outline: none;
+}
+
+.input-container button{
+    background-color: #C71C2C;
+    color: rgb(255, 255, 255);
+    border: 0;
+    padding: 10px;
+    font-family: "Rajdhani";
+    font-size: 15pt;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-container button:hover{
+    background-color: #C71C2C;
+    color: rgb(255, 255, 255);
+    border: 0;
+    padding: 10px;
+    font-family: "Rajdhani";
+    font-size: 15pt;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: bounce 2s infinite ease-in-out; 
+	-webkit-animation: bounce 2s infinite ease-in-out;
+	-moz-animation: bounce 2s infinite ease-in-out;
+	-o-animation: bounce 2s infinite ease-in-out;
+}
+
+.puzzle-question{
+    border-radius: 10px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-top: 10vh;
+    min-height: 50vh;
+}
+
+.puzzle-question h1{
+    color:#ffffff;
+    text-decoration: underline wavy rgb(255, 255, 255);
+    font-size: 60pt;
+}
+
+.puzzle-question p{
+    color:#ffffff;
+    font-size: 28pt;
+    font-weight: 600;
+}
+
+.puzzle-info{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    justify-content: center;
+    padding-top: 10vh;
+}
+
+
+
+.puzzle-info li{
+    list-style: none;
+}
+
+
+.puzzle-title{
+    width: 60%;
+    font-family: "Rajdhani";
+    font-size: 50pt;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+#burger{
+    left: 0;
+    margin-left: 5vh;
+    position: absolute;
+    animation: bounce 2s infinite ease-in-out; 
+	-webkit-animation: bounce 2s infinite ease-in-out;
+	-moz-animation: bounce 2s infinite ease-in-out;
+	-o-animation: bounce 2s infinite ease-in-out;
+}
+
+#envoy{
+    top: 50vh;
+    right: 0;
+    margin-right: 5vh;
+    position: absolute;
+    animation: bounce 2s infinite ease-in-out; 
+	-webkit-animation: bounce 2s infinite ease-in-out;
+	-moz-animation: bounce 2s infinite ease-in-out;
+	-o-animation: bounce 2s infinite ease-in-out;
+}
+
+#planet{
+    position: absolute;
+    top: 0;
+    z-index: -9999;
+}
+
+#logo{
+    font-family: "Rajdhani";
+    font-size: 100pt;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    
+}
+
+@-webkit-keyframes bounce {
+	0% {-webkit-transform: translateY(0);}	
+	50% {-webkit-transform: translateY(-15px);}
+    100% {-webkit-transform: translateY(0);}	
+}
+ 
+@-moz-keyframes bounce {
+	0% {-moz-transform: translateY(0);}
+	50% {-moz-transform: translateY(-15px);}
+    100% {-moz-transform: translateY(0);}
+}
+ 
+@-o-keyframes bounce {
+	0%{-o-transform: translateY(0);}
+	50% {-o-transform: translateY(-15px);}
+    100% {-moz-transform: translateY(0);}
+}
+
+@keyframes bounce {
+	0% {transform: translateY(0);}
+	50% {transform: translateY(-15px);}
+    100% {-moz-transform: translateY(0);}
+}
