@@ -1,4 +1,6 @@
 import React, { Component, useEffect, useRef, useState } from 'react'
+import { useNavigate } from "react-router-dom";
+
 import './Puzzle.css';
 import hamburger from "./images/hamburger.png"
 import envoy from "./images/envoy.png"
@@ -10,17 +12,19 @@ import planet from "./images/planet-v.png"
 
 
 function Puzzle() {
+  const navigate = useNavigate();
   const [inputValue, setValue] = useState("");
 
   function handleSubmit(e) {
     e.preventDefault();
+    if (inputValue === "")
+    {
 
-    if(inputValue === "moon"){
-      alert("doğru cevap: " + inputValue);
     }
     else{
-      alert(inputValue)
+      navigate("/"+inputValue);
     }
+
   }
 
     return (
