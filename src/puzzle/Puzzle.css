@@ -43,7 +43,7 @@ body {
     min-width: 40vw;
     font-family: "Rajdhani";
     font-size: 2.5vh;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .input-container input:focus{
@@ -79,6 +79,7 @@ body {
 }
 
 .puzzle-question{
+    font-family: "Rajdhani";
     border-radius: 10px;
     width: 100%;
     justify-content: center;
