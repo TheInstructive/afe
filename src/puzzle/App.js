@@ -2,8 +2,6 @@ import React, { Component, useEffect, useRef, useState } from 'react'
 import './Puzzle.css';
 import hamburger from "./images/hamburger.png"
 import envoy from "./images/envoy.png"
-import madal from "./images/madal.png"
-import ground1 from "./images/ground2.png"
 
 import planet from "./images/planet-v.png"
 
@@ -32,7 +30,6 @@ function Puzzle() {
           <div className='puzzle-container'>
               <div className='puzzle-info'>
 
-              <h1 style={{color:"red"}}>AFE PUZZLE EVENT</h1>
 
               </div>
 
