@@ -40,9 +40,9 @@ body {
     border: 0;
     border-radius: 5px;
     margin-right: 10px;
-    min-width: 70vh;
+    min-width: 40vw;
     font-family: "Rajdhani";
-    font-size: 15pt;
+    font-size: 2.5vh;
     font-weight: 600;
 }
 
@@ -56,9 +56,10 @@ body {
     border: 0;
     padding: 10px;
     font-family: "Rajdhani";
-    font-size: 15pt;
+    font-size: 2.5vh;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .input-container button:hover{
@@ -67,7 +68,8 @@ body {
     border: 0;
     padding: 10px;
     font-family: "Rajdhani";
-    font-size: 15pt;
+    font-size: 2.5vh;
+    font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
     animation: bounce 2s infinite ease-in-out; 
@@ -92,13 +94,25 @@ body {
 .puzzle-question h1{
     color:#ffffff;
     text-decoration: underline wavy rgb(255, 255, 255);
-    font-size: 60pt;
+    font-size: 9vh;
+}
+
+.puzzle-question p:first-of-type{
+    color:#ffffff;
+    font-size: 3.5vh;
+    font-weight: 600;
+    margin-bottom: 0;
+    border-radius: 2vh;
+    background-color: #C71C2C;
+    padding: 15px;
+    font-size: 2vw;
 }
 
 .puzzle-question p{
     color:#ffffff;
-    font-size: 28pt;
-    font-weight: 600;
+    font-size: 2.5vh;
+    font-weight: 400;
+    margin: 2vh;
 }
 
 .puzzle-info{
@@ -110,12 +124,14 @@ body {
     border-bottom-right-radius: 2vh;
     justify-content: center;
     padding-top: 10vh;
+    text-align: center;
 }
 
 
 
-.puzzle-info li{
-    list-style: none;
+.puzzle-info h1{
+    font-size: 50pt;
+
 }
 
 
@@ -153,16 +169,17 @@ body {
     position: absolute;
     top: 0;
     z-index: -9999;
+    width: 100%;
 }
 
 #logo{
     font-family: "Rajdhani";
-    font-size: 100pt;
+    font-size: 7vw;
     font-weight: 800;
     color: white;
     text-align: center;
-    
 }
+
 
 @-webkit-keyframes bounce {
 	0% {-webkit-transform: translateY(0);}	
@@ -186,4 +203,21 @@ body {
 	0% {transform: translateY(0);}
 	50% {transform: translateY(-15px);}
     100% {-moz-transform: translateY(0);}
+}
+
+
+@media only screen and (max-width: 890px) {
+
+    .puzzle-question h1{
+        color:#ffffff;
+        text-decoration: underline wavy rgb(255, 255, 255);
+        font-size: 8vw;
+    }
+    
+    .puzzle-question p{
+        color:#ffffff;
+        font-size: 2.5vw;
+        font-weight: 600;
+    }
+
 }
