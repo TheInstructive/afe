@@ -1,7 +1,8 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Puzzle from "./puzzle/App";
-import Moon from "./moon/App"
+import Moon from "./puzzle/moon/App"
+import NotFound from "./404/App"
 import Home from "./App";
 
 
@@ -11,7 +12,8 @@ export default function App() {
       <Routes>
           <Route index element={<Home />} />
           <Route path="puzzle" element={<Puzzle />} />
-          <Route path="moon" element={<Moon />} />
+          <Route path="/puzzle/moon" element={<Moon />} />
+          <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );

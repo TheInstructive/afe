@@ -22,7 +22,7 @@ function Puzzle() {
 
     }
     else{
-      navigate("/"+inputValue);
+      navigate("/puzzle/"+inputValue);
     }
 
   }
