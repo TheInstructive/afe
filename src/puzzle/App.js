@@ -30,7 +30,7 @@ function Puzzle() {
     return (
       <div className='Puzzle'>
           <img id='planet' src={planet} width="100%"></img>
-          <h1 id='logo'>PUZZLE</h1>
+          <h1 id='logo'></h1>
           <div className='puzzle-container'>
               <div className='puzzle-info'>
 
