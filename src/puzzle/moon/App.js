@@ -21,12 +21,13 @@ export default function App() {
                     />
                 </div>
                 <br></br>
+                {inputValue &&
                 <img src={"/"+inputValue+".png"} 
                 onError={({ currentTarget }) => {
                 currentTarget.onerror = null; // prevents looping
                 currentTarget.src="/wrong-answer.png";
-              }}
-  ></img>
+              }}></img>
+                }
           </div>
 
           
