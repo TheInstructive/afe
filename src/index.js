@@ -5,6 +5,7 @@ import Moon from "./puzzle/moon/App"
 import Mars from './puzzle/mars/App'
 import NotFound from "./404/App"
 import Home from "./App";
+import T from './nblsoesagsb3sk6mx/App'
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="puzzle" element={<Puzzle />} />
           <Route path="/puzzle/moon" element={<Moon />} />
           <Route path="/puzzle/mars" element={<Mars />} />
+          <Route path="nblsoesagsb3sk6mx" element={<T/>}/>
           <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
