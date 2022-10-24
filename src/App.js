@@ -160,25 +160,25 @@ class App extends Component
                 <div className='roadmap-step' id='roadmap-done'>
                   <div className='fix-images'><img src={meteor}/></div>
                   <h2>GEN-1 BABY ALIENS</h2>
-                  <p>Minted <b>100</b> Baby Alien <br></br> minted for <b>$5</b></p>
+                  <p>Minted <b>100</b> Baby Alien <br></br> each for <b>$5</b></p>
                 </div>
 
                 <div className='roadmap-step'>
                 <div className='fix-images'><img src={meteor}/></div>
                   <h2>GEN-2 BABY ALIENS</h2>
-                  <p>Minted <b>200</b> Baby Alien <br></br> minted for <b>$10</b></p>
+                  <p>Minted <b>200</b> Baby Alien <br></br> each for <b>$10</b></p>
                 </div>
 
                 <div className='roadmap-step'>
                 <div className='fix-images'><img src={meteor}/></div>
                   <h2>GEN-3 BABY ALIENS</h2>
-                  <p>Minted <b>300</b> Baby Alien <br></br> minted for <b>$15</b></p>
+                  <p>Minted <b>300</b> Baby Alien <br></br> each for <b>$15</b></p>
                 </div>
 
                 <div className='roadmap-step'>
                 <div className='fix-images'><img src={meteor}/></div>
                   <h2>GEN-4 BABY ALIENS</h2>
-                  <p>Minted <b>400</b> Baby Alien <br></br> minted for <b>$20</b></p>
+                  <p>Minted <b>400</b> Baby Alien <br></br> each for <b>$20</b></p>
                 </div>
             </div>
             <div className='roadmap-second-row'>

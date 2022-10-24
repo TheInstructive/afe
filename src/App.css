@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('http://fonts.cdnfonts.com/css/aldo-the-apache');
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: none;
+    scrollbar-color: #3c3c3c #1E1E1E;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #1E1E1E;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #3c3c3c;
+    border-radius: 5px;
+  }
+
 *
 {
     margin:0;
@@ -440,7 +462,7 @@ section #text span
     align-items: center;
 }
 
-.socials a, img{
+.socials img{
     display: flex;
     align-items: center;
     justify-content: center;
