@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import entry from "./images/main.png"
+import giristest from "./images/giristest.svg"
 import left_door from "./images/left_door.png"
 import right_door from "./images/right_door.png"
 import logo from "./images/logo.png"
 import menu from "./images/menu.png"
 import meteor from "./images/meteor.png"
-import teams from './images/teams.png'
+import teams from './images/team.svg'
 import roadmap from './images/roadmap.png'
 import story from './images/story.png'
 import faq from './images/faq.png'
@@ -14,7 +15,7 @@ import mint from './images/mint.png'
 import discord from './images/discord.svg'
 import twitter from './images/twitter.svg'
 import instagram from './images/instagram.svg'
-
+import testroad from "./images/roads.svg"
 
 import afelogo from './images/afe_logo.png'
 
@@ -135,7 +136,7 @@ class App extends Component
           <div></div>
         </header>
         <img src={afelogo} id="afelogo"></img> 
-        <img src={menu} id="menu_screen"></img>
+        <img src={giristest} id="menu_screen"></img>
 
         <img src={right_door} id="rightdoor"></img>
         <img src={left_door} id="leftdoor"></img>
@@ -158,46 +159,58 @@ class App extends Component
           <div className='roadmap-container'>
             <div className='roadmap-first-row'>
                 <div className='roadmap-step' id='roadmap-done'>
-                  <div className='fix-images'><img src={meteor}/></div>
-                  <h2>GEN-1 BABY ALIENS</h2>
-                  <p>Minted <b>100</b> Baby Alien <br></br> each for <b>$5</b></p>
+                  <div className='fix-images' id='current-step'><img src={meteor}/></div>
+                  <h2>PHASE 1</h2>
+                  <ul>
+                    <li>Launch <b>Discord</b> and <b>Website</b></li>
+                    <li>Implement feedbacks</li>
+                    <li>Reward community with <b>NFT, CRO, WL</b> giveaways</li>
+                    <li>Launch the <b>Baby Aliens</b> Collection!</li>
+                  </ul>
                 </div>
 
                 <div className='roadmap-step'>
                 <div className='fix-images'><img src={meteor}/></div>
-                  <h2>GEN-2 BABY ALIENS</h2>
-                  <p>Minted <b>200</b> Baby Alien <br></br> each for <b>$10</b></p>
+                  <h2>PHASE 2</h2>
+                  <ul>
+                    <li>Decisions with the community about future projects</li>
+                    <li>Reward current <u>Baby Aliens holders</u> with exclusive airdrops and CRO</li>
+                    <li>Building foundation for the <b>Aliens from Earth Game</b> which you can improve your NFTs traits.</li>
+                  </ul>
                 </div>
 
                 <div className='roadmap-step'>
                 <div className='fix-images'><img src={meteor}/></div>
-                  <h2>GEN-3 BABY ALIENS</h2>
-                  <p>Minted <b>300</b> Baby Alien <br></br> each for <b>$15</b></p>
+                  <h2>PHASE 3</h2>
+                  <ul>
+                    <li><b>Partnerships</b> and growing community</li>
+                    <li>Enable votes for some decisions for the Aliens from Earth project</li>
+                    <li>Building foundation for the Aliens from Earth NFT collection which is a <b>key to access</b> to the game!</li>
+                    <li>Reward current Baby Aliens holders with Aliens from Earth NFT airdrops</li>
+                  </ul>
                 </div>
 
-                <div className='roadmap-step'>
-                <div className='fix-images'><img src={meteor}/></div>
-                  <h2>GEN-4 BABY ALIENS</h2>
-                  <p>Minted <b>400</b> Baby Alien <br></br> each for <b>$20</b></p>
-                </div>
             </div>
             <div className='roadmap-second-row'>
-              <div className='roadmap-step'>
-              <div className='fix-images'><img src={meteor}/></div>
-                  <h2>PREPARATION</h2>
-                  <p>Preparation for Aliens from Earth. <br></br> It'll be on Cronos Network and <br></br> Baby Alien holders will get an airdrop.</p>
-              </div>
-              <div className='roadmap-step'>
-              <div className='fix-images'><img src={meteor}/></div>
-                  <h2>SPONSORSHIPS</h2>
-                  <p>Sponsorships and marketplace decision.</p>
-              </div>
-              <div className='roadmap-step'>
-              <div className='fix-images'><img src={meteor}/></div>
-                  <h2>TOKEN</h2>
-                  <p>Relased AFE Token. <br></br>Holders will get airdrop as long as they hold NFT.</p>
-              </div>
+            <div className='roadmap-step'>
+                <div className='fix-images'><img src={meteor}/></div>
+                  <h2>PHASE 4</h2>
+                  <ul>
+                    <li>Release Aliens from Earth game demo</li>
+                    <li>Test the game with Aliens from Earth holders</li>
+                    <li>Host <b>AMAs</b> with the community and <u>implement suggestions & feedback</u> for the game</li>
+                  </ul>
+                </div>
 
+              <div className='roadmap-step'>
+              <div className='fix-images'><img src={meteor}/></div>
+                  <h2>PHASE 5</h2>
+                  <ul>
+                    <li>Building foundation for the <b>$AFE</b> token which is <u>game currency!</u></li>
+                    <li>Reward current Baby Aliens holders with <b>$AFE</b> airdrops</li>
+                    <li>$AFE TOKEN SALE!</li>
+                  </ul>
+              </div>
             </div>
           </div>
         <img src={roadmap} id="roadmap_screen"></img>
@@ -206,11 +219,7 @@ class App extends Component
       <div className='in-site'>
         <h2 className='menu-title' id='story'>STORY</h2>
         <div className='story-conainer'>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <p>Preparing...</p>
         </div>
         <img src={story} id="story_screen"></img>
       </div>
@@ -227,64 +236,33 @@ class App extends Component
                     <button onClick={this.showAnswers} id='answer1'>+</button>
                 </div>
                 <div className='answer' id={this.state.answer1}>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
+                  <p>AFE is an organization that creates nft collections on the crypto.com/nft and Cronos Chain </p>
                 </div>
               </div>
 
               <div className='question-container'>
                 <div className='question'>
-                    <h2>What is AFE?</h2>
+                    <h2>What is BABY ALIENS project?</h2>
                     <button onClick={this.showAnswers} id='answer2'>+</button>
                 </div>
 
                 <div className='answer' id={this.state.answer2}>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  <p>BABY ALIENS is a collection of <b>1.111 uniquely generated NFTs</b> minted on <b>crypto.com/nft.</b> Each NFT has different attributes with different rarities. A BABY ALIEN is also the key of the AFE organization's other projects.
                   </p>
                 </div>
               </div>
 
               <div className='question-container'>
                 <div className='question'>
-                    <h2>What is AFE?</h2>
+                    <h2>How can I get a BABY ALIEN?</h2>
                     <button onClick={this.showAnswers} id='answer3'>+</button>
                 </div>
 
                 <div className='answer' id={this.state.answer3}>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  <p>Minting is still ongoing on crypto.com/nft. Each week, <b>50</b> BABY ALIEN with different attributes and different rarities drop into the earth. Don't miss them!
                   </p>
                 </div>
               </div>
-
-              <div className='question-container'>
-                <div className='question'>
-                    <h2>What is AFE?</h2>
-                    <button onClick={this.showAnswers} id='answer4'>+</button>
-                </div>
-
-                <div className='answer' id={this.state.answer4}>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
-                </div>
-              </div>
-
-              <div className='question-container'>
-                <div className='question'>
-                    <h2>What is AFE?</h2>
-                    <button onClick={this.showAnswers} id='answer5'>+</button>
-                </div>
-
-                <div className='answer' id={this.state.answer5}>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
-                </div>
-              </div>
-
             </div>
 
             <div className='secound-column'>
@@ -295,8 +273,7 @@ class App extends Component
                     <button onClick={this.showAnswers} id='answer6'>+</button>
                 </div>
                 <div className='answer' id={this.state.answer6}>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  <p>Preparing...
                   </p>
                 </div>
               </div>
@@ -308,8 +285,7 @@ class App extends Component
                 </div>
 
                 <div className='answer' id={this.state.answer7}>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  <p>Preparing...
                   </p>
                 </div>
               </div>
@@ -321,38 +297,10 @@ class App extends Component
                 </div>
 
                 <div className='answer' id={this.state.answer8}>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  <p>Preparing...
                   </p>
                 </div>
               </div>
-
-              <div className='question-container'>
-                <div className='question'>
-                    <h2>What is AFE?</h2>
-                    <button onClick={this.showAnswers} id='answer9'>+</button>
-                </div>
-
-                <div className='answer' id={this.state.answer9}>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
-                </div>
-              </div>
-
-              <div className='question-container'>
-                <div className='question'>
-                    <h2>What is AFE?</h2>
-                    <button onClick={this.showAnswers} id='answer10'>+</button>
-                </div>
-
-                <div className='answer' id={this.state.answer10}>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
-                </div>
-              </div>
-
             </div>
           </div>
 
@@ -380,3 +328,11 @@ class App extends Component
   }
 }
 export default App;
+
+{/*
+        <animateMotion
+        fill="freeze"
+        dur="5s"
+        repeatCount="1"
+        path="M5,0.27H1150c90.92-7.26,168.37,64.38,170,150,1.67,87.73-76.78,163.32-170,156H55v386" />
+*/}

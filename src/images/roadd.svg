@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1330.03 735">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        fill: #ffb529;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="road">
+        <path class="cls-1" d="M5,19.27H1155c90.92-7.26,168.37,64.38,170,150,1.67,87.73-76.78,163.32-170,156H59v386" />
+      </g>
+      <circle id="station7" class="cls-2" cx="59.01" cy="715" r="20">
+      </circle>
+
+      <circle id="station6" class="cls-2" cx="355.01" cy="325" r="20" />
+      <circle id="station5" class="cls-2" cx="705.01" cy="325" r="20" />
+      <circle id="station4" class="cls-2" cx="1055.01" cy="325" r="20" />
+      <circle id="station3" class="cls-2" cx="1055.01" cy="20" r="20" />
+      <circle id="station2" class="cls-2" cx="705.01" cy="20" r="20" />
+      <circle id="station1" class="cls-2" cx="355.01" cy="20" r="20"> 
+            <animateMotion
+      dur="5s"
+      repeatCount="indefinite"
+      path="M5,0.27H800c90.92-7.26,168.37,64.38,170,150,1.67,87.73-76.78,163.32-170,156H-300v386" />
+      </circle>
+    </g>
+  </g>
+</svg>

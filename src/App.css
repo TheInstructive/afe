@@ -140,7 +140,7 @@ section img {
     height: 5vw;
     align-items: center;
     justify-content: center;
-    margin-top: 7vw;
+    margin-top: 9vw;
 }
 
 .team-name{
@@ -163,7 +163,7 @@ section img {
 .team-name p{
     color: white;
     font-size:0.7vw;
-    margin-top: -1vw;
+    margin-top:0.1vw;
 }
 
 .story-conainer{
@@ -219,19 +219,21 @@ section img {
 .story-conainer p{
     width: 60%;
     text-align: center;
+    color: white;
 }
 
 .roadmap-first-row{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 5vw;
 }
 
 .roadmap-second-row{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 10vw;
+    margin-top: 5vw;
 }
 
 
@@ -240,7 +242,7 @@ section img {
     height: 4vw;
 }
 
-.fix-images img{
+#current-step{
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite;
@@ -259,38 +261,39 @@ section img {
     } 
 }
 
-.roadmap-step h2, p{
+.roadmap-step h2, li{
     padding-top: 10px;
     font-family: 'Poppins', sans-serif;
     color: white;
-    text-align: center;
 }
 
 .roadmap-step h2 {
     font-size: 1.5vw;
 }
 
-.roadmap-step p {
-    font-size: 1vw;
+.roadmap-step li {
+    font-size: 0.8vw;
+    padding: 0;
 }
 
 .roadmap-step{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:flex-start;
     margin-left: 5vw;
     margin-right: 5vw;
     min-width: 10vw;
+    max-width: 20vw;
+    background-color: #1e1e1e73;
+    padding: 2vw;
+    border-radius:1vw;
 }
 
 .roadmap-step b{
     color:#FF3F29;
 }
 
-#roadmap-done{
-    animation: zoom-in-zoom-out 5s ease infinite;
-}
 
 .in-site{
     margin-top: -7px;
@@ -320,6 +323,7 @@ section img {
 
 .answer p {
     font-size: 0.8vw;
+    color: white;
 }
 
 #answer-deactive{display: none;}
@@ -351,7 +355,7 @@ section img {
 }
 
 .question h2{
-    font-size: 2vw;
+    font-size: 1.3vw;
 }
 
 .question button{
