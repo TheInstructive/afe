@@ -342,7 +342,7 @@ section img {
 
 .in-site{
     margin-top: -7px;
-    border-top: 15px solid #1E1E1E;
+    border-top: 1vw solid #1E1E1E;
 }
 
 .faq-container{
@@ -492,12 +492,15 @@ section #text span
     color:white;
     font-family: 'AldotheApache', sans-serif;
     letter-spacing: 2px;
+    font-size: 1.2vw;
+
 }
 
 .footer h5 {
     color:white;
     font-family: 'AldotheApache', sans-serif;
     letter-spacing: 2px;
+    font-size: 0.7vw;
 }
 
 .footer p{
@@ -516,11 +519,12 @@ section #text span
     align-items: center;
     justify-content: center;
     padding-right: 1vw;
+    width: 3vw;
 }
 
 .nfts-container{
     width: 100%;
-    border-top: 15px solid #1E1E1E;
+    border-top: 1vw solid #1E1E1E;
     display: flex;
     flex-direction: row;
     height: 20vw;
@@ -532,7 +536,7 @@ section #text span
 
 .discord-container{
     width: 100%;
-    border-top: 15px solid #1E1E1E;
+    border-top: 1vw solid #1E1E1E;
     display: flex;
     flex-direction: row;
     height: 20vw;
