@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('http://fonts.cdnfonts.com/css/aldo-the-apache');
+@font-face {
+    font-family: 'AldotheApache';
+    src: url('./fonts/AldotheApache.eot');
+    src: url('./fonts/AldotheApache.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/AldotheApache.ttf') format('truetype'),
+         url('./fonts/AldotheApache.woff') format('woff'),
+         url('./fonts/AldotheApache.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
@@ -42,41 +52,70 @@ body{
 
 #header
 {   
-    top: 20vw;
-    position: absolute;
-    left:0;
-    width: 100%;
-    padding: 3vw 5vw;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    position: fixed;
+    background-color: #1e1e1e81;
+    justify-content: space-between;
+    top: 0;
+    height: 4vw;
+
 }
 
-#header ul, #in-header ul{
+#connect-wallet{
+    border: none;
+    width: 10vw;
+    height: 2vw;
+    border-radius: 10vw;
+    margin-right: 5vw;
+    background-color: #FF3F29;
+    color: white;
+    font-family: 'AldotheApache', sans-serif;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.logo-container{
+    background-color: yellow;
+    height: 500px;
+}
+
+#logo{
+    width: 5vw;
+    margin-left: 5vw;
+    display: flex;
+    margin-top: 1vw;
+}
+
+
+#header ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
-#header ul li, #in-header ul li {
+#header ul li {
     list-style: none;
-    margin-left: 3vh;
+    margin-left: 3vw;
 }
-#header ul li a, #in-header ul li a {
+
+#header ul li a{
     text-decoration: none;
-    padding: 1vh 4vh;
-    color: rgb(255, 255, 255);
-    background-color: #0000000c;
-    border-radius: 5vh;
-    font-family: 'Aldo the Apache', sans-serif;
-    font-size: 1.2vw;
+    padding: 0.5vw 2.5vw;
+    color:white;
+    background-color: #00000060;
+    border-radius: 5vw;
+    font-family: 'AldotheApache', sans-serif;
+    font-size: 1vw;
     letter-spacing: 1px;
 }
 
-#header ul li a:hover, 
-#header ul li a.active-menu{
-    color: azure;
+#header ul li a:hover {
+    color:#FF3F29;
 }
 
 section{
@@ -110,7 +149,7 @@ section img {
     position: absolute;
     left: 0;
     right: 0;
-    font-family: 'Aldo the Apache', sans-serif;
+    font-family: 'AldotheApache', sans-serif;
     text-shadow: 1px 5px #ee4e27;
     letter-spacing: 5px;
 }
@@ -157,7 +196,7 @@ section img {
 
 .team-name a{
     color: white;
-    font-family: 'Aldo the Apache', sans-serif;
+    font-family: 'AldotheApache', sans-serif;
     font-size: 2vw;
 }
 .team-name p{
@@ -191,7 +230,7 @@ section img {
 .mint-container button{
     width: 15vw;
     height: 5vw;
-    font-family: 'Aldo the Apache', sans-serif;
+    font-family: 'AldotheApache', sans-serif;
     font-size: 2vw;
     border: 0.25vw solid #1E1E1E;
     border-radius: 1vw;
@@ -445,13 +484,13 @@ section #text span
 
 .footer h2 {
     color:white;
-    font-family: 'Aldo the Apache', sans-serif;
+    font-family: 'AldotheApache', sans-serif;
     letter-spacing: 2px;
 }
 
 .footer h5 {
     color:white;
-    font-family: 'Aldo the Apache', sans-serif;
+    font-family: 'AldotheApache', sans-serif;
     letter-spacing: 2px;
 }
 
@@ -472,6 +511,82 @@ section #text span
     justify-content: center;
     padding-right: 1vw;
 }
+
+.nfts-container{
+    width: 100%;
+    border-top: 15px solid #1E1E1E;
+    display: flex;
+    flex-direction: row;
+    height: 20vw;
+    margin-bottom: 0.2vw;
+    align-items: center;
+    justify-content:flex-start;
+    background-color: #343434;
+}
+
+.discord-container{
+    width: 100%;
+    border-top: 15px solid #1E1E1E;
+    display: flex;
+    flex-direction: row;
+    height: 20vw;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #343434;
+    margin-top: -0.5vw;
+}
+
+.discord-left img{
+    width: 15vw;
+}
+
+.discord-right{
+    color: white;
+    font-size: 1vw;
+}
+
+.discord-right h1{
+    font-family: 'AldotheApache', sans-serif;
+    letter-spacing: 0.1vw;
+}
+
+.discord-right p{
+    color: white;
+    font-size: 1vw;
+}
+
+.discord-right button{
+    font-family: 'AldotheApache', sans-serif;
+    font-size: 1.2vw;
+    border: none;
+    padding: 0.5vw;
+    min-width: 10vw;
+    margin-top: 1vw;
+    background-color: #7289DA;
+    color: white;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+.nfts-container img {
+    height: 15vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    animation: slide-images 20s linear infinite;
+}
+
+
+@keyframes slide-images{
+    0% {
+      transform:translateX(0px);
+    }
+    50% {
+      transform:translateX(-1800px);
+    }
+    100% {
+        transform:translateX(0px);
+      }
+  }
 
 @media only screen and (max-width: 768px) {
     section #rightdoor, section #leftdoor {

@@ -15,8 +15,6 @@ import mint from './images/mint.png'
 import discord from './images/discord.svg'
 import twitter from './images/twitter.svg'
 import instagram from './images/instagram.svg'
-import testroad from "./images/roads.svg"
-
 import afelogo from './images/afe_logo.png'
 
 
@@ -93,6 +91,7 @@ class App extends Component
     let left_doors = document.getElementById("leftdoor")
     let right_doors = document.getElementById("rightdoor")
     let entry = document.getElementById("entry")
+    let navbarmenu = document.getElementById("navbarmenu")
 
     if(window.innerWidth > 768) {
         window.addEventListener('scroll', function(){
@@ -126,14 +125,15 @@ class App extends Component
       <section>
         <img src={entry} id="entry"></img>
         <header id='header'>
-          <div></div>
+
           <ul>
             <li><a href='#' className='active-menu'>HOME</a></li>
             <li><a href='#teams'>TEAM</a></li>
             <li><a href='#roadmap'>ROADMAP</a></li>
             <li><a href='#faq'>FAQ</a></li>
           </ul>
-          <div></div>
+          <div><button id='connect-wallet'>CONNECT WALLET</button></div>
+
         </header>
         <img src={afelogo} id="afelogo"></img> 
         <img src={giristest} id="menu_screen"></img>
@@ -141,6 +141,21 @@ class App extends Component
         <img src={right_door} id="rightdoor"></img>
         <img src={left_door} id="leftdoor"></img>
       </section>
+
+<div>
+      <div className='nfts-container'>
+        <img src='https://i.imgur.com/yQp71Y0.png'></img>
+        <img src='https://i.imgur.com/Tupbprh.png'></img>
+        <img src='https://i.imgur.com/yQp71Y0.png'></img>
+        <img src='https://i.imgur.com/Tupbprh.png'></img>
+        <img src='https://i.imgur.com/yQp71Y0.png'></img>
+        <img src='https://i.imgur.com/Tupbprh.png'></img>
+        <img src='https://i.imgur.com/yQp71Y0.png'></img>
+        <img src='https://i.imgur.com/Tupbprh.png'></img>
+        <img src='https://i.imgur.com/yQp71Y0.png'></img>
+        <img src='https://i.imgur.com/Tupbprh.png'></img>
+      </div>
+</div>
 
       <div className='in-site'>
         <h2 className='menu-title' id='teams'>TEAMS</h2>
@@ -152,6 +167,21 @@ class App extends Component
           </div>
         </div>
         <img src={teams} id="team_screen"></img>
+      </div>
+
+      <div className='discord-container'>
+      <div></div>
+
+        <div className='discord-left'>
+          <img src='https://i.imgur.com/yQp71Y0.png'></img>
+        </div>
+
+        <div className='discord-right'>
+          <h1>JOIN OUR DISCORD!</h1>
+          <p>Don't miss anything.</p>
+          <a href='https://discord.com/invite/wwq8QPnVAf' target="_blank"><button>JOIN!</button></a>
+        </div>
+        <div></div>
       </div>
 
       <div className='in-site'>
