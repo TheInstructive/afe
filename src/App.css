@@ -342,7 +342,7 @@ section img {
 
 .in-site{
     margin-top: -7px;
-    border-top: 1vw solid #1E1E1E;
+    border-top: 1vh solid #1E1E1E;
 }
 
 .faq-container{
@@ -524,7 +524,7 @@ section #text span
 
 .nfts-container{
     width: 100%;
-    border-top: 1vw solid #1E1E1E;
+    border-top: 1vh solid #1E1E1E;
     display: flex;
     flex-direction: row;
     height: 20vw;
@@ -536,7 +536,7 @@ section #text span
 
 .discord-container{
     width: 100%;
-    border-top: 1vw solid #1E1E1E;
+    border-top: 1vh solid #1E1E1E;
     display: flex;
     flex-direction: row;
     height: 20vw;
