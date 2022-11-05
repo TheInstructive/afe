@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import entry from "./images/main.png"
-import giristest from "./images/giristest.svg"
+import giristest from "./images/menu.png"
 import left_door from "./images/left_door.png"
 import right_door from "./images/right_door.png"
-import logo from "./images/logo.png"
-import menu from "./images/menu.png"
 import meteor from "./images/meteor.png"
-import teams from './images/team.svg'
+import teams from './images/teams.png'
 import roadmap from './images/roadmap.png'
 import story from './images/story.png'
 import faq from './images/faq.png'
@@ -91,7 +89,6 @@ class App extends Component
     let left_doors = document.getElementById("leftdoor")
     let right_doors = document.getElementById("rightdoor")
     let entry = document.getElementById("entry")
-    let navbarmenu = document.getElementById("navbarmenu")
 
     if(window.innerWidth > 768) {
         window.addEventListener('scroll', function(){
@@ -132,7 +129,7 @@ class App extends Component
             <li><a href='#roadmap'>ROADMAP</a></li>
             <li><a href='#faq'>FAQ</a></li>
           </ul>
-          <div><button id='connect-wallet'>CONNECT WALLET</button></div>
+          <button id='connect-wallet'>CONNECT WALLET</button>
 
         </header>
         <img src={afelogo} id="afelogo"></img> 
