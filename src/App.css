@@ -812,7 +812,6 @@ section #text span
     display: flex;
     flex-direction: row;
     height: 20vw;
-    margin-bottom: 0.2vw;
     align-items: center;
     justify-content:flex-start;
     background-color: #343434;
