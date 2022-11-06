@@ -14,6 +14,12 @@ import discord from './images/discord.svg'
 import twitter from './images/twitter.svg'
 import instagram from './images/instagram.svg'
 import afelogo from './images/afe_logo.png'
+import mobilegiris from './images/mobilegiris.png'
+import mobileteams from './images/teams-mobile.png'
+import roadmapmobile from './images/roadmap-mobile.png'
+
+
+
 
 
 
@@ -155,7 +161,7 @@ class App extends Component
 </div>
 
       <div className='in-site'>
-        <h2 className='menu-title' id='teams'>TEAMS</h2>
+        <h2 className='menu-title' id='teams'>TEAM</h2>
         <div className='teams-container'>
           <div className='team-names'>
             <div className='team-name'><a>DEVALIEN</a> <p>BACKEND DEVELOPER</p></div>
@@ -245,7 +251,7 @@ class App extends Component
 
       <div className='in-site'>
         <h2 className='menu-title' id='story'>STORY</h2>
-        <div className='story-conainer'>
+        <div className='story-container'>
           <p>Preparing...</p>
         </div>
         <img src={story} id="story_screen"></img>
@@ -339,6 +345,148 @@ class App extends Component
           <button>MINT NOW</button>
         </div>
         <img src={mint} id="mint_screen"></img>
+      </div>
+
+      <div className='mobile-container'>
+        <img src={mobilegiris}></img>
+      </div>
+      
+      <div className='mobile-container'>
+        <h2 className='mobile-title'>TEAM</h2>
+        <img src={mobileteams}></img>
+      </div>
+
+      <div className='mobile-container'>
+        <h2 className='mobile-title'>ROADMAP</h2>
+        <div className='mobile-roadmap-container'>
+          <div className='mobile-roadmap-step'>
+            <h2>PHASE 1</h2>
+              <ul>
+                <li>Launch <b>Discord</b> and <b>Website</b></li>
+                <li>Implement feedbacks</li>
+                <li>Reward community with <b>NFT, CRO, WL</b> giveaways</li>
+                <li>Launch the <b>Baby Aliens</b> Collection!</li>
+              </ul>
+          </div>
+
+          <div className='mobile-roadmap-step'>
+                    <h2>PHASE 2</h2>
+                    <ul>
+                      <li>Decisions with the community about future projects</li>
+                      <li>Reward current <u>Baby Aliens holders</u> with exclusive airdrops and CRO</li>
+                      <li>Building foundation for the <b>Aliens from Earth Game</b> which you can improve your NFTs traits.</li>
+                    </ul>
+          </div>
+
+          <div className='mobile-roadmap-step'>
+                    <h2>PHASE 3</h2>
+                    <ul>
+                      <li><b>Partnerships</b> and growing community</li>
+                      <li>Enable votes for some decisions for the Aliens from Earth project</li>
+                      <li>Building foundation for the Aliens from Earth NFT collection which is a <b>key to access</b> to the game!</li>
+                      <li>Reward current Baby Aliens holders with Aliens from Earth NFT airdrops</li>
+                    </ul>
+          </div>
+
+          <div className='mobile-roadmap-step'>
+                    <h2>PHASE 4</h2>
+                    <ul>
+                      <li>Release Aliens from Earth game demo</li>
+                      <li>Test the game with Aliens from Earth holders</li>
+                      <li>Host <b>AMAs</b> with the community and <u>implement suggestions & feedback</u> for the game</li>
+                    </ul>
+          </div>
+
+          <div className='mobile-roadmap-step'>
+                    <h2>PHASE 5</h2>
+                    <ul>
+                      <li>Building foundation for the <b>$AFE</b> token which is <u>game currency!</u></li>
+                      <li>Reward current Baby Aliens holders with <b>$AFE</b> airdrops</li>
+                      <li>$AFE TOKEN SALE!</li>
+                    </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className='mobile-container'>
+        <h2 className='mobile-title'>STORY</h2>
+        <div className='story-container-mobile'>
+          <p>Preparing...</p>
+        </div>
+      </div>
+
+      <div className='mobile-container'>
+        <h2 className='mobile-title'>FAQ</h2>
+        <div className='faq-container-mobile'>
+        <div className='mobile-question-container'>
+                <div className='mobile-question'>
+                    <h2>What is AFE?</h2>
+                </div>
+                <div className='mobile-answer'>
+                  <p>AFE is an organization that creates nft collections on the crypto.com/nft and Cronos Chain </p>
+                </div>
+              </div>
+
+              <div className='mobile-question-container'>
+                <div className='mobile-question'>
+                    <h2>What is BABY ALIENS project?</h2>
+                </div>
+
+                <div className='mobile-answer'>
+                  <p>BABY ALIENS is a collection of <b>1.111 uniquely generated NFTs</b> minted on <b>crypto.com/nft.</b> Each NFT has different attributes with different rarities. A BABY ALIEN is also the key of the AFE organization's other projects.
+                  </p>
+                </div>
+              </div>
+
+              <div className='mobile-question-container'>
+                <div className='mobile-question'>
+                    <h2>How can I get a BABY ALIEN?</h2>
+                </div>
+
+                <div className='mobile-answer'>
+                  <p>Minting is still ongoing on crypto.com/nft. Each week, <b>50</b> BABY ALIEN with different attributes and different rarities drop into the earth. Don't miss them!
+                  </p>
+                </div>
+                </div>
+
+                <div className='mobile-question-container'>
+                <div className='mobile-question'>
+                    <h2>What is AFE?</h2>
+                </div>
+                <div className='mobile-answer' >
+                  <p>Preparing...
+                  </p>
+                </div>
+              </div>
+
+              <div className='mobile-question-container'>
+                <div className='mobile-question'>
+                    <h2>What is AFE?</h2>
+                </div>
+
+                <div className='mobile-answer' >
+                  <p>Preparing...
+                  </p>
+                </div>
+              </div>
+
+              <div className='mobile-question-container'>
+                <div className='mobile-question'>
+                    <h2>What is AFE?</h2>
+                </div>
+
+                <div className='mobile-answer'>
+                  <p>Preparing...
+                  </p>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div className='mobile-container'>
+        <div className='mobile-mint-container'>
+          <button>MINT NOW</button>
+        </div>
       </div>
 
       <div className='footer'>
