@@ -818,6 +818,17 @@ section #text span
     background-color: #343434;
 }
 
+.mobile-showcase{
+    display: none;
+}
+
+.mobile-showcase img {
+    height: 10vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    animation: slide-images 20s linear infinite;
+}
+
 .discord-container{
     width: 100%;
     border-top: 1vh solid #1E1E1E;
@@ -939,5 +950,17 @@ section #text span
             justify-content: space-between;
             margin-top: -7px;
             min-height: 8vh;
+        }
+        .mobile-showcase{
+            width: 100%;
+            border-top: 1vh solid #1E1E1E;
+            display: flex;
+            flex-direction: row;
+            height: 15vh;
+            margin-bottom: 1vh;
+            align-items: center;
+            justify-content:flex-start;
+            background-color: #343434;
+            margin-top: -1.3vh;
         }
   }

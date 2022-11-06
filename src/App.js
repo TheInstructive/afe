@@ -278,7 +278,7 @@ class App extends Component
                 </div>
 
                 <div className='answer' id={this.state.answer2}>
-                  <p>BABY ALIENS is a collection of <b>1.111 uniquely generated NFTs</b> minted on <b>crypto.com/nft.</b> Each NFT has different attributes with different rarities. A BABY ALIEN is also the key of the AFE organization's other projects.
+                  <p>BABY ALIENS is a collection of <b>3.333 uniquely generated NFTs</b> minted on <b>Cronos Chain</b> Each NFT has different attributes with different rarities. A BABY ALIEN is also the key of the AFE organization's other projects.
                   </p>
                 </div>
               </div>
@@ -290,8 +290,7 @@ class App extends Component
                 </div>
 
                 <div className='answer' id={this.state.answer3}>
-                  <p>Minting is still ongoing on crypto.com/nft. Each week, <b>50</b> BABY ALIEN with different attributes and different rarities drop into the earth. Don't miss them!
-                  </p>
+                  <p>We will announce the marketplace we have contracted with. Join our Discord, follow us on Twitter and stay tuned!</p>
                 </div>
               </div>
             </div>
@@ -347,6 +346,19 @@ class App extends Component
 
       <div className='mobile-container'>
         <img src={mobilegiris}></img>
+      </div>
+
+      <div className='mobile-showcase'>
+      <img src='https://i.imgur.com/yQp71Y0.png'></img>
+        <img src='https://i.imgur.com/Tupbprh.png'></img>
+        <img src='https://i.imgur.com/yQp71Y0.png'></img>
+        <img src='https://i.imgur.com/Tupbprh.png'></img>
+        <img src='https://i.imgur.com/yQp71Y0.png'></img>
+        <img src='https://i.imgur.com/Tupbprh.png'></img>
+        <img src='https://i.imgur.com/yQp71Y0.png'></img>
+        <img src='https://i.imgur.com/Tupbprh.png'></img>
+        <img src='https://i.imgur.com/yQp71Y0.png'></img>
+        <img src='https://i.imgur.com/Tupbprh.png'></img>
       </div>
       
       <div className='mobile-container'>
@@ -431,7 +443,7 @@ class App extends Component
                 </div>
 
                 <div className='mobile-answer'>
-                  <p>BABY ALIENS is a collection of <b>1.111 uniquely generated NFTs</b> minted on <b>crypto.com/nft.</b> Each NFT has different attributes with different rarities. A BABY ALIEN is also the key of the AFE organization's other projects.
+                  <p>BABY ALIENS is a collection of <b>3.333 uniquely generated NFTs</b> minted on <b>Cronos Chain</b> Each NFT has different attributes with different rarities. A BABY ALIEN is also the key of the AFE organization's other projects.
                   </p>
                 </div>
               </div>
@@ -442,7 +454,7 @@ class App extends Component
                 </div>
 
                 <div className='mobile-answer'>
-                  <p>Minting is still ongoing on crypto.com/nft. Each week, <b>50</b> BABY ALIEN with different attributes and different rarities drop into the earth. Don't miss them!
+                  <p>We will announce the marketplace we have contracted with. Join our Discord, follow us on Twitter and stay tuned!
                   </p>
                 </div>
                 </div>
