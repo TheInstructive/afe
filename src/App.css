@@ -151,13 +151,13 @@ body{
 
 #mobile-header ul li a{
     text-decoration: none;
-    padding: 1vh 5vw;
+    padding: 1vh 2vh;
     color:white;
     background-color: #00000060;
     border-radius: 5vw;
     font-family: 'AldotheApache', sans-serif;
     letter-spacing: 1px;
-    font-size: 2.5vh;
+    font-size: 2.2vh;
 
 }
 
@@ -166,15 +166,16 @@ body{
 }
 
 #mobile-connect-wallet{
+    margin-left: 4vw;
     border: none;
-    width: 30vh;
-    height: 4vh;
+    width: 40vh;
+    height: 4.1vh;
     border-radius: 10vw;
     margin-right: 5vw;
     background-color: #FF3F29;
     color: white;
     font-family: 'AldotheApache', sans-serif;
-    font-size: 2.5vh;
+    font-size: 2.2vh;
     cursor: pointer;
 }
 
@@ -309,7 +310,7 @@ section img {
     font-family: 'AldotheApache', sans-serif;
     font-size: 8vw;
     border: 0.25vw solid #1E1E1E;
-    border-radius: 1vw;
+    border-radius: 2vh;
     background-color: #FF3F29;
     color: white;
     -webkit-box-shadow: -5px 5px 0px 0px rgba(0,0,0,0.75);
@@ -443,13 +444,17 @@ section img {
 }
 
 .mobile-roadmap-step h2{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'AldotheApache', sans-serif;
+    text-shadow: 1px 2px #ee4e27;
+    letter-spacing: 3px;
     color: white;
 }
 
 .mobile-roadmap-step li{
     font-family: 'Poppins', sans-serif;
     color: white;
+    list-style:square;
+    margin-top: 1vh;
 }
 
 .mobile-roadmap-step h2 {
@@ -709,7 +714,6 @@ section #text span
 }
 
 .mobile-footer{
-    padding-left: 50px;
     background-color: #FF3F29;
     position: absolute;
     width: 100%;
@@ -727,12 +731,14 @@ section #text span
     font-family: 'AldotheApache', sans-serif;
     letter-spacing: 2px;
     font-size: 4vh;
+    padding: 0;
 }
 .mobile-footer h5 {
     color:white;
     font-family: 'AldotheApache', sans-serif;
     letter-spacing: 2px;
-    font-size: 2vh;
+    font-size: 1.5vh;
+    text-align: center;
 }
 
 .mobile-socials{
@@ -922,7 +928,7 @@ section #text span
             height: 8vh;
         }
         .mobile-footer{
-            padding-left: 50px;
+            padding-left: 5vh;
             background-color: #FF3F29;
             position: absolute;
             width: 100%;

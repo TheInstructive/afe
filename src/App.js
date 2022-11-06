@@ -350,12 +350,12 @@ class App extends Component
       </div>
       
       <div className='mobile-container'>
-        <h2 className='mobile-title'>TEAM</h2>
+        <h2 className='mobile-title' id='teams-mobile'>TEAM</h2>
         <img src={mobileteams}></img>
       </div>
 
       <div className='mobile-container'>
-        <h2 className='mobile-title'>ROADMAP</h2>
+        <h2 className='mobile-title' id='roadmap-mobile'>ROADMAP</h2>
         <div className='mobile-roadmap-container'>
           <div className='mobile-roadmap-step'>
             <h2>PHASE 1</h2>
@@ -414,7 +414,7 @@ class App extends Component
       </div>
 
       <div className='mobile-container'>
-        <h2 className='mobile-title'>FAQ</h2>
+        <h2 className='mobile-title' id='faq-mobile'>FAQ</h2>
         <div className='faq-container-mobile'>
         <div className='mobile-question-container'>
                 <div className='mobile-question'>
@@ -489,16 +489,16 @@ class App extends Component
 
       <header id='mobile-header'>
           <ul>
-            <li><a href='#teams'>TEAM</a></li>
-            <li><a href='#roadmap'>ROADMAP</a></li>
-            <li><a href='#faq'>FAQ</a></li>
+            <li><a href='#teams-mobile'>TEAM</a></li>
+            <li><a href='#roadmap-mobile'>ROADMAP</a></li>
+            <li><a href='#faq-mobile'>FAQ</a></li>
           </ul>
           <button id='mobile-connect-wallet'>CONNECT WALLET</button>
         </header>
 
       <div className='mobile-footer'>
-          <h2>AFE</h2>     
-          <h5>2022 AFE. All rights reserved.</h5>     
+          <h2>AFE</h2>   
+          <h5>2022 AFE. All rights reserved.</h5>
           <div className='mobile-socials'>
             <a href='#'><img src={discord}></img></a>
             <a href='#'><img src={twitter}></img></a>
