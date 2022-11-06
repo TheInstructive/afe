@@ -128,7 +128,6 @@ class App extends Component
       <section>
         <img src={entry} id="entry"></img>
         <header id='header'>
-
           <ul>
             <li><a href='#' className='active-menu'>HOME</a></li>
             <li><a href='#teams'>TEAM</a></li>
@@ -136,7 +135,6 @@ class App extends Component
             <li><a href='#faq'>FAQ</a></li>
           </ul>
           <button id='connect-wallet'>CONNECT WALLET</button>
-
         </header>
         <img src={afelogo} id="afelogo"></img> 
         <img src={giristest} id="menu_screen"></img>
@@ -487,6 +485,25 @@ class App extends Component
         <div className='mobile-mint-container'>
           <button>MINT NOW</button>
         </div>
+      </div>
+
+      <header id='mobile-header'>
+          <ul>
+            <li><a href='#teams'>TEAM</a></li>
+            <li><a href='#roadmap'>ROADMAP</a></li>
+            <li><a href='#faq'>FAQ</a></li>
+          </ul>
+          <button id='mobile-connect-wallet'>CONNECT WALLET</button>
+        </header>
+
+      <div className='mobile-footer'>
+          <h2>AFE</h2>     
+          <h5>2022 AFE. All rights reserved.</h5>     
+          <div className='mobile-socials'>
+            <a href='#'><img src={discord}></img></a>
+            <a href='#'><img src={twitter}></img></a>
+            <a href='#'><img src={instagram}></img></a>
+          </div>
       </div>
 
       <div className='footer'>
