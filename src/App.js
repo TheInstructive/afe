@@ -250,7 +250,7 @@ class App extends Component
       <div className='in-site'>
         <h2 className='menu-title' id='story'>STORY</h2>
         <div className='story-container'>
-        <iframe src="story/index.html" height="600" width="100%"/>
+        <iframe src="story/index.html" height="600" width="1024"/>
         </div>
         <img src={story} id="story_screen"></img>
       </div>
