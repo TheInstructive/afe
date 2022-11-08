@@ -250,7 +250,7 @@ class App extends Component
       <div className='in-site'>
         <h2 className='menu-title' id='story'>STORY</h2>
         <div className='story-container'>
-        <iframe src="story/index.html" height="600" width="1024"/>
+        <iframe src="story/index.html" height="600" width="100%"/>
         </div>
         <img src={story} id="story_screen"></img>
       </div>
@@ -421,7 +421,7 @@ class App extends Component
       <div className='mobile-container'>
         <h2 className='mobile-title'>STORY</h2>
         <div className='story-container-mobile'>
-        <iframe src="story/index.html" height="600" width="1024" style={{border:0}}/>
+        <iframe src="story/index.html" height="600" width="100%" style={{border:0}}/>
         </div>
       </div>
 
