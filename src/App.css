@@ -291,6 +291,10 @@ section img {
     font-size: 1vw;
 }
 
+.story-container iframe{
+    border: 10px solid #1E1E1E;
+}
+
 .mobile-mint-container{
     min-height: 100vh;
     width: 100%;
