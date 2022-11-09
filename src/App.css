@@ -510,10 +510,29 @@ section img {
     padding-bottom: 10vh;
     min-height: 100vh;
     color: white;
+    text-align: center;
+    font-size: 4vw;
 }
 
-.story-container-mobile iframe{
-    margin-top: 30vh;
+.story-container-mobile b{
+    color: #FF3F29;
+}
+
+.story-container-mobile a button{
+    margin-top: 10vh;
+    height: 10vh;
+    font-family: 'AldotheApache', sans-serif;
+    font-size: 8vw;
+    border: 0.25vw solid #1E1E1E;
+    border-radius: 2vh;
+    background-color: #FF3F29;
+    color: white;
+    -webkit-box-shadow: -5px 5px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 5px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 5px 0px 0px rgba(0,0,0,0.75);
+    animation: zoom-in-zoom-out 2s ease infinite;
+    cursor: pointer;
+    width: 55vw;
 }
 
 

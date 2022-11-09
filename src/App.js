@@ -421,7 +421,8 @@ class App extends Component
       <div className='mobile-container'>
         <h2 className='mobile-title'>STORY</h2>
         <div className='story-container-mobile'>
-        <iframe src="story/index.html" height="600" width="100%" style={{border:0}}/>
+          <p>Click <b>PLAY</b> button to play our story game on mobile!</p>
+         <a href='https://aliensfromearth.com/story' target="_blank"><button>PLAY</button></a>
         </div>
       </div>
 
