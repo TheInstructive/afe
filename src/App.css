@@ -850,7 +850,7 @@ section #text span
 }
 
 .mobile-showcase img {
-    height: 10vh;
+    height: 40vh;
     padding-left: 2vw;
     padding-right: 2vw;
     animation: slide-images 20s linear infinite;
@@ -875,6 +875,7 @@ section #text span
 .discord-right{
     color: white;
     font-size: 1vw;
+    margin-left: -10vw;
 }
 
 .discord-right h1{
@@ -983,7 +984,7 @@ section #text span
             border-top: 1vh solid #1E1E1E;
             display: flex;
             flex-direction: row;
-            height: 15vh;
+            height: 50vh;
             margin-bottom: 1vh;
             align-items: center;
             justify-content:flex-start;

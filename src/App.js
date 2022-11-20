@@ -16,9 +16,11 @@ import instagram from './images/instagram.svg'
 import afelogo from './images/afe_logo.png'
 import mobilegiris from './images/mobilegiris.png'
 import mobileteams from './images/teams-mobile.png'
-import roadmapmobile from './images/roadmap-mobile.png'
-
-
+import dcbanner from './images/dcs.png'
+import slider2 from './images/2.png'
+import slider3 from './images/3.png'
+import slider4 from './images/4.png'
+import slider5 from './images/5.png'
 
 
 
@@ -134,7 +136,7 @@ class App extends Component
             <li><a href='#roadmap'>ROADMAP</a></li>
             <li><a href='#faq'>FAQ</a></li>
           </ul>
-          <button id='connect-wallet'>CONNECT WALLET</button>
+          <a href='./mint'><button id='connect-wallet'>MINT</button></a>
         </header>
         <img src={afelogo} id="afelogo"></img> 
         <img src={giristest} id="menu_screen"></img>
@@ -145,16 +147,16 @@ class App extends Component
 
 <div>
       <div className='nfts-container'>
-        <img src='https://i.imgur.com/yQp71Y0.png'></img>
-        <img src='https://i.imgur.com/Tupbprh.png'></img>
-        <img src='https://i.imgur.com/yQp71Y0.png'></img>
-        <img src='https://i.imgur.com/Tupbprh.png'></img>
-        <img src='https://i.imgur.com/yQp71Y0.png'></img>
-        <img src='https://i.imgur.com/Tupbprh.png'></img>
-        <img src='https://i.imgur.com/yQp71Y0.png'></img>
-        <img src='https://i.imgur.com/Tupbprh.png'></img>
-        <img src='https://i.imgur.com/yQp71Y0.png'></img>
-        <img src='https://i.imgur.com/Tupbprh.png'></img>
+        <img src={slider2}></img>
+        <img src={slider3}></img>
+        <img src={slider4}></img>
+        <img src={slider5}></img>
+        <img src={slider2}></img>
+        <img src={slider3}></img>
+        <img src={slider4}></img>
+        <img src={slider5}></img>
+        <img src={slider2}></img>
+        <img src={slider3}></img>
       </div>
 </div>
 
@@ -174,7 +176,7 @@ class App extends Component
       <div></div>
 
         <div className='discord-left'>
-          <img src='https://i.imgur.com/yQp71Y0.png'></img>
+          <img src={slider5}></img>
         </div>
 
         <div className='discord-right'>
@@ -349,16 +351,16 @@ class App extends Component
       </div>
 
       <div className='mobile-showcase'>
-      <img src='https://i.imgur.com/yQp71Y0.png'></img>
-        <img src='https://i.imgur.com/Tupbprh.png'></img>
-        <img src='https://i.imgur.com/yQp71Y0.png'></img>
-        <img src='https://i.imgur.com/Tupbprh.png'></img>
-        <img src='https://i.imgur.com/yQp71Y0.png'></img>
-        <img src='https://i.imgur.com/Tupbprh.png'></img>
-        <img src='https://i.imgur.com/yQp71Y0.png'></img>
-        <img src='https://i.imgur.com/Tupbprh.png'></img>
-        <img src='https://i.imgur.com/yQp71Y0.png'></img>
-        <img src='https://i.imgur.com/Tupbprh.png'></img>
+      <img src={slider2}></img>
+        <img src={slider3}></img>
+        <img src={slider4}></img>
+        <img src={slider5}></img>
+        <img src={slider2}></img>
+        <img src={slider3}></img>
+        <img src={slider4}></img>
+        <img src={slider5}></img>
+        <img src={slider2}></img>
+        <img src={slider3}></img>
       </div>
       
       <div className='mobile-container'>
