@@ -265,34 +265,34 @@ class App extends Component
           
               <div className='question-container'>
                 <div className='question'>
-                    <h2>What is AFE?</h2>
+                    <h2>What is AFE and what is its purpose?</h2>
                     <button onClick={this.showAnswers} id='answer1'>+</button>
                 </div>
                 <div className='answer' id={this.state.answer1}>
-                  <p>AFE is an organization that creates nft collections on the crypto.com/nft and Cronos Chain </p>
+                  <p>AFE is an organization that develops interactive applications/games and aims to bring value to the cronos network.</p>
                 </div>
               </div>
 
               <div className='question-container'>
                 <div className='question'>
-                    <h2>What is BABY ALIENS project?</h2>
+                    <h2>What is Baby Aliens collection about?</h2>
                     <button onClick={this.showAnswers} id='answer2'>+</button>
                 </div>
 
                 <div className='answer' id={this.state.answer2}>
-                  <p>BABY ALIENS is a collection of <b>3.333 uniquely generated NFTs</b> minted on <b>Cronos Chain</b> Each NFT has different attributes with different rarities. A BABY ALIEN is also the key of the AFE organization's other projects.
+                  <p>BABY ALIENS is a collection of <b>5.000 uniquely generated NFTs</b> minted on <b>Cronos Chain</b> Each NFT has different attributes with different rarities. A BABY ALIEN is also the key of the AFE organization's other projects.
                   </p>
                 </div>
               </div>
 
               <div className='question-container'>
                 <div className='question'>
-                    <h2>How can I get a BABY ALIEN?</h2>
+                    <h2>When is the mint date?</h2>
                     <button onClick={this.showAnswers} id='answer3'>+</button>
                 </div>
 
                 <div className='answer' id={this.state.answer3}>
-                  <p>We will announce the marketplace we have contracted with. Join our Discord, follow us on Twitter and stay tuned!</p>
+                  <p>TBA</p>
                 </div>
               </div>
             </div>
@@ -301,35 +301,38 @@ class App extends Component
 
             <div className='question-container'>
                 <div className='question'>
-                    <h2>What is AFE?</h2>
+                    <h2>What is mint price?</h2>
                     <button onClick={this.showAnswers} id='answer6'>+</button>
                 </div>
                 <div className='answer' id={this.state.answer6}>
-                  <p>Preparing...
-                  </p>
+                  <p>200 CRO</p>
                 </div>
               </div>
 
               <div className='question-container'>
                 <div className='question'>
-                    <h2>What is AFE?</h2>
+                    <h2>What are your future plans?</h2>
                     <button onClick={this.showAnswers} id='answer7'>+</button>
                 </div>
 
                 <div className='answer' id={this.state.answer7}>
-                  <p>Preparing...
+                  <p>Our current goal is to develop AFE The Game & release it together with Upgrade NFTs that will allow players to earn valuables with systems we're going to develop.
                   </p>
                 </div>
               </div>
 
               <div className='question-container'>
                 <div className='question'>
-                    <h2>What is AFE?</h2>
+                    <h2>What will I get as a holder?</h2>
                     <button onClick={this.showAnswers} id='answer8'>+</button>
                 </div>
 
                 <div className='answer' id={this.state.answer8}>
-                  <p>Preparing...
+                  <p>
+                  • Baby Alien holders will have a chance to get a free upgrade their NFTs to our main collection in the near future. <br></br>
+                  • Baby Alien holders will have a say in all our projects and can directly influence the future of the ecosystem we'll build together.<br></br>
+                  • Baby Alien holders will have a chance to create special NPC characters for our games.<br></br>
+                  • Baby Alien holders will be able to receive 5% royalty on our secondary sales!
                   </p>
                 </div>
               </div>
@@ -433,63 +436,66 @@ class App extends Component
         <div className='faq-container-mobile'>
         <div className='mobile-question-container'>
                 <div className='mobile-question'>
-                    <h2>What is AFE?</h2>
+                    <h2>What is AFE and what is its purpose?</h2>
                 </div>
                 <div className='mobile-answer'>
-                  <p>AFE is an organization that creates nft collections on the crypto.com/nft and Cronos Chain </p>
+                  <p>AFE is an organization that develops interactive applications/games and aims to bring value to the cronos network. </p>
                 </div>
               </div>
 
               <div className='mobile-question-container'>
                 <div className='mobile-question'>
-                    <h2>What is BABY ALIENS project?</h2>
+                    <h2>What is Baby Aliens collection about?</h2>
                 </div>
 
                 <div className='mobile-answer'>
-                  <p>BABY ALIENS is a collection of <b>3.333 uniquely generated NFTs</b> minted on <b>Cronos Chain</b> Each NFT has different attributes with different rarities. A BABY ALIEN is also the key of the AFE organization's other projects.
+                  <p>BABY ALIENS is a collection of <b>5.000 uniquely generated NFTs</b> minted on <b>Cronos Chain</b> Each NFT has different attributes with different rarities. A BABY ALIEN is also the key of the AFE organization's other projects.
                   </p>
                 </div>
               </div>
 
               <div className='mobile-question-container'>
                 <div className='mobile-question'>
-                    <h2>How can I get a BABY ALIEN?</h2>
+                    <h2>When is the mint date?</h2>
                 </div>
 
                 <div className='mobile-answer'>
-                  <p>We will announce the marketplace we have contracted with. Join our Discord, follow us on Twitter and stay tuned!
+                  <p>TBA
                   </p>
                 </div>
                 </div>
 
                 <div className='mobile-question-container'>
                 <div className='mobile-question'>
-                    <h2>What is AFE?</h2>
+                    <h2>What is mint price?</h2>
                 </div>
                 <div className='mobile-answer' >
-                  <p>Preparing...
+                <p>200 CRO</p>
+                </div>
+              </div>
+
+              <div className='mobile-question-container'>
+                <div className='mobile-question'>
+                    <h2>What are your future plans?</h2>
+                </div>
+
+                <div className='mobile-answer' >
+                <p>Our current goal is to develop AFE The Game & release it together with Upgrade NFTs that will allow players to earn valuables with systems we're going to develop.
                   </p>
                 </div>
               </div>
 
               <div className='mobile-question-container'>
                 <div className='mobile-question'>
-                    <h2>What is AFE?</h2>
-                </div>
-
-                <div className='mobile-answer' >
-                  <p>Preparing...
-                  </p>
-                </div>
-              </div>
-
-              <div className='mobile-question-container'>
-                <div className='mobile-question'>
-                    <h2>What is AFE?</h2>
+                    <h2>What will I get as a holder? </h2>
                 </div>
 
                 <div className='mobile-answer'>
-                  <p>Preparing...
+                <p>
+                  • Baby Alien holders will have a chance to get a free upgrade their NFTs to our main collection in the near future. <br></br>
+                  • Baby Alien holders will have a say in all our projects and can directly influence the future of the ecosystem we'll build together.<br></br>
+                  • Baby Alien holders will have a chance to create special NPC characters for our games.<br></br>
+                  • Baby Alien holders will be able to receive 5% royalty on our secondary sales!
                   </p>
                 </div>
               </div>
@@ -515,8 +521,8 @@ class App extends Component
           <h2>AFE</h2>   
           <h5>2022 AFE. All rights reserved.</h5>
           <div className='mobile-socials'>
-            <a href='#'><img src={discord}></img></a>
-            <a href='#'><img src={twitter}></img></a>
+            <a href='https://discord.com/invite/427XNcsVJV' target="blank_"><img src={discord}></img></a>
+            <a href='https://twitter.com/AFECronos' target="blank_"><img src={twitter}></img></a>
             <a href='#'><img src={instagram}></img></a>
           </div>
       </div>
@@ -525,8 +531,8 @@ class App extends Component
           <h2>AFE</h2>     
           <h5>2022 AFE. All rights reserved.</h5>     
           <div className='socials'>
-            <a href='#'><img src={discord}></img></a>
-            <a href='#'><img src={twitter}></img></a>
+            <a href='https://discord.com/invite/427XNcsVJV' target="blank_"><img src={discord}></img></a>
+            <a href='https://twitter.com/AFECronos' target="blank_"><img src={twitter}></img></a>
             <a href='#'><img src={instagram}></img></a>
           </div>
       </div>
@@ -535,11 +541,3 @@ class App extends Component
   }
 }
 export default App;
-
-{/*
-        <animateMotion
-        fill="freeze"
-        dur="5s"
-        repeatCount="1"
-        path="M5,0.27H1150c90.92-7.26,168.37,64.38,170,150,1.67,87.73-76.78,163.32-170,156H55v386" />
-*/}
