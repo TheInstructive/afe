@@ -136,7 +136,7 @@ class App extends Component
             <li><a href='#roadmap'>ROADMAP</a></li>
             <li><a href='#faq'>FAQ</a></li>
           </ul>
-          <a href='./mint'><button id='connect-wallet'>MINT</button></a>
+          <a href='https://mint.aliensfromearth.com/'><button id='connect-wallet'>MINT</button></a>
         </header>
         <img src={afelogo} id="afelogo"></img> 
         <img src={giristest} id="menu_screen"></img>
@@ -344,7 +344,7 @@ class App extends Component
 
       <div className='in-site'>
         <div className='mint-container'>
-          <button>MINT NOW</button>
+        <a href='https://mint.aliensfromearth.com/'><button>MINT NOW</button></a>
         </div>
         <img src={mint} id="mint_screen"></img>
       </div>

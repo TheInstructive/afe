@@ -335,6 +335,12 @@ section img {
     align-items: center;
 }
 
+.mint-container a{
+    text-decoration: none;
+    color: white;
+    font-family: 'AldotheApache', sans-serif;
+}
+
 .mint-container button{
     width: 15vw;
     height: 5vw;
